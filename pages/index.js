@@ -1,4 +1,9 @@
 export default function Home() {
-  return <h1>CUBE</h1>
-  
+  const test = (<div>
+    <h1>CUBE</h1>
+    <p>アウトプットしていくサイト</p>
+    <p>デヤンス</p>
+  </div>
+  )
+  return test
 }
