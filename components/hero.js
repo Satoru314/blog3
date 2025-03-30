@@ -1,11 +1,9 @@
-export default function Hero(){
-    const title = "CUBE"
-    const subtitle = "アウトプットしていくサイト"
+export default function Hero(props){
     const description = "デヤンス"
     return (
         <div className="hero">
-            <h1 style={{color: 'red', fontSize: '80px'}}>{title}</h1>
-            <p>{subtitle}</p>
+            <h1 style={{color: 'red', fontSize: '80px'}}>{props.title}</h1>
+            <p>{props.subtitle}</p>
             <p>{description}</p>
         </div>
     )
