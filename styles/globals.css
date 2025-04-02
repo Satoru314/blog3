@@ -1,3 +1,4 @@
+/* カスタムプロパティ */
 :root {
   --background: #d0f4f5;
   --foreground: #171717;
@@ -26,6 +27,7 @@
   --sqace-jump: clamp(1.25rem, 0.35rem + 3.8vm, 3.75rem);
 }
 
+/* ダークモード用のカスタムプロパティ */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -33,8 +35,7 @@
   }
 }
 
-html,
-
+/* ベーススタイル */
 body {
   color: var(--black);
   background: var(--gray-10);
@@ -43,17 +44,39 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* タイポグラフィ */
+h1 {
+  font-size: var(--heading1);
+}
+
+h2 {
+  font-size: var(--heading2);
+}
+
+h3 {
+  font-size: var(--heading3);
+}
+
+/* リセットスタイル */
+body, h1, h2, h3, p, figure, ul{
+  padding: 0;
+  margin: 0;
+  list-style:none;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* リンクスタイル */
 a {
   color: inherit;
   text-decoration: none;
 }
 
+/* ダークモード用のスタイル */
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
