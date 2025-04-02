@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Hero from '@/components/hero.js'
 
 export default function Blog() {
