@@ -1,13 +1,14 @@
 .text {
-    padding: 20px;
-    border: solid 2px currentColor;
-    color: darkblue;
+    padding-top: calc(var(--display) * 0.5);
+    padding-bottom: calc(var(--display) * 0.7);
 }
 
 .title {
-    font-size: 80px;
+    font-size: var(--display);
+    font-weight: 900;
+    letter-spacing: 0.15em;
 }
 
 .subtitle {
-    font-size: 20px;
+    font-size: var(--small-heading2);
 }

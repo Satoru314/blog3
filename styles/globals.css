@@ -58,6 +58,12 @@ h3 {
 }
 
 /* リセットスタイル */
+body, h1, h2, h3, p, figure, ul{
+  padding: 0;
+  margin: 0;
+  list-style:none;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
