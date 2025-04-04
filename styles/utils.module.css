@@ -9,6 +9,7 @@
 .sideBySide {
     display: flex;
     align-items: column;
+    flex-direction: column;
 }
 
 @media (min-width: 768px) {
