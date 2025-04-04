@@ -2,6 +2,7 @@ import Hero from '@/components/hero.js'
 import Container from '@/components/container.js'
 import PostBody from '@/components/post-body.js'
 
+
 export default function Home() {
   return(
     <Container>
@@ -30,6 +31,7 @@ export default function Home() {
       最後に、Web開発は一人で行うものではありません。コミュニティに参加し、他の開発者と交流することで、多くの知識やアイデアを得ることができます。オンラインフォーラムやSNS、勉強会などを活用して、仲間と一緒に成長していきましょう。Web開発の旅は長いですが、その分やりがいも大きいです。楽しみながら学び、素晴らしいウェブ体験を作り出してください！
     </p>
     </PostBody>
+    
     
     </Container>
   )
