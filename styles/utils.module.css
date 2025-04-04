@@ -1,0 +1,32 @@
+/* スペース開け中央揃え */
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*スペース無し基本形*/
+.sideBySide {
+    display: flex;
+    align-items: column;
+}
+
+@media (min-width: 768px) {
+    .sideBySide {
+        flex-direction: row;
+    }
+}
+/*スペース無し中央揃え*/
+.sideBySideCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .sideBySideCenter {
+        flex-direction: row;
+        text-align: left;
+    }
+}
