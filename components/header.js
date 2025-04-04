@@ -1,13 +1,16 @@
 import Logo from './logo';
 import Nav from './nav';
 import utils from '@/styles/utils.module.css'
+import Container from "@/components/container.js";
 export default function Header() {
     return (
         <header>
-            <div className={utils.spaceBetween}>
-            <Logo boxOn/>
-            <Nav/>
-            </div>
+            <Container large>
+                <div className={utils.spaceBetween}>
+                    <Logo boxOn/>
+                    <Nav/>
+                </div>
+            </Container>
         </header>
     )
 }

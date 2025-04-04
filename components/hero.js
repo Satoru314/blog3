@@ -1,5 +1,6 @@
 import styles from '@/styles/hero.module.css'
 import utils from '@/styles/utils.module.css'
+import Container from '@/components/container.js';
 export default function Hero({title, subtitle, imageOn = false }) {
     return (
         <div className={utils.sideBySideCenter}>
