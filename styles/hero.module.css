@@ -12,3 +12,7 @@
 .subtitle {
     font-size: var(--small-heading2);
 }
+
+.imageContainer{
+    max-width: 720px;
+}

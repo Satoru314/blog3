@@ -1,6 +1,8 @@
 import Hero from '@/components/hero.js'
 import Container from '@/components/container.js'
 import PostBody from '@/components/post-body.js'
+import Image from 'next/image'
+import file from '@/public/file.svg'
 
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
     <PostBody>
     <p>おっす！</p>
     <p>ここは俺がフロントエンドの勉強をするための場所だぜ！</p>
+    <h2>ファイルって感じのファイルだ！</h2>
+    <Image src={file} alt="file" layout="intrinsic" width={100} height={200}/>
     <h2>ここから、サイト配置のテスト用ダミーテキストです</h2>
     <p>
       Web開発の世界へようこそ！最初は覚えることが多くて圧倒されるかもしれませんが、焦らず一歩ずつ進んでいきましょう。Web開発は、HTML、CSS、JavaScriptという3つの基本的な技術から成り立っています。これらを理解することで、静的なウェブサイトから動的なアプリケーションまで、さまざまなものを作れるようになります。
