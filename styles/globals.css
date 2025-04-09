@@ -76,6 +76,13 @@ a {
   text-decoration: none;
 }
 
+
+figure {
+  width: 100%; /* 親要素の幅を制限 */
+  margin: 0 auto;  /* 中央揃え */
+  
+}
+
 /* ダークモード用のスタイル */
 @media (prefers-color-scheme: dark) {
   html {
