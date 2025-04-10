@@ -9,7 +9,31 @@ export default function Hero({title, subtitle, imageOn = false }) {
                 <h1 className={styles.title}>{title}</h1>
                 <p className={styles.subtitle}>{subtitle}</p>
             </div>
-            {imageOn ? <figure className={styles.imageContainer}> <Image src={iruka} alt="iruka" layout="responsive" sizes="(min-width: 1152px) 576px, (min-width: 768px) 50vw, 100vw"/></figure> : null}
+            {imageOn ? <figure className={styles.imageContainer} > 
+                <Image src={iruka} alt="iruka" 
+                    fill={true}/>
+            </figure> : null}
+            {imageOn ? <figure className={styles.imageContainer} > 
+                <Image src={iruka} alt="iruka" 
+                    fill={true}
+                    style={{
+                        filter: 'grayscale(50%)', // グレースケールにする例
+                    }}/>
+            </figure> : null}
+            {imageOn ? <figure className={styles.imageContainer} > 
+                <Image src={iruka} alt="iruka" 
+                    fill={true}
+                    style={{
+                        filter: 'grayscale(75%)', // グレースケールにする例
+                    }}/>
+            </figure> : null}
+            {imageOn ? <figure className={styles.imageContainer} > 
+                <Image src={iruka} alt="iruka" 
+                    fill={true}
+                    style={{
+                        filter: 'grayscale(100%)', // グレースケールにする例
+                    }}/>
+            </figure> : null}
         </div>
         
     )
