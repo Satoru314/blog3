@@ -7,8 +7,8 @@ import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from '@/components/two-col
 export default function About() {
   return(
   <Container>
-    <Hero title="About" subtitle="About development activities"/>
-    <TwoColumn>
+    <Hero title="About" subtitle="About development activities" imageOn/>
+   <TwoColumn>
       <TwoColumnMain>
         <PostBody>  
           <p>俺はプログラミングが好きだ！</p>
