@@ -3,11 +3,12 @@ import Container from '@/components/container.js'
 import PostBody from '@/components/post-body.js'
 import Image from 'next/image'
 import file from '@/public/file.svg'
-
+import Meta from '@/components/meta'
 
 export default function Home() {
   return(
     <Container>
+      <Meta pagetitle="CUBE"/>
       <Hero 
       title="CUBE" 
       subtitle="アウトプットしていくサイト"
