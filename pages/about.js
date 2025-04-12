@@ -2,11 +2,13 @@ import Hero from '@/components/hero.js'
 import Container from '@/components/container.js'
 import PostBody from '@/components/post-body.js'
 import Contact from '@/components/contact.js'
+import Meta from '@/components/meta'
 
 import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from '@/components/two-column.js'
 export default function About() {
   return(
   <Container>
+    <Meta pagetitle="アバウト" pageDesc="アウトプットしていくサイト"/>
     <Hero title="About" subtitle="About development activities" imageOn/>
    <TwoColumn>
       <TwoColumnMain>
