@@ -14,8 +14,8 @@
   --body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
   --display: clamp(4.5rem, 1.83rem + 0.2vw, 10rem);
   --heading1: clamp(2rem, 1.3rem + 0.3vm, 4rem);
-  --heading2: calc(var(--body) * 1.5);
-  --heading3: calc(var(--body) * 2.0);
+  --heading2: calc(var(--body) * 1.2);
+  --heading3: calc(var(--body) * 1.5);
   --small-heading2: clamp(0.875em, 4vm - 1rem, 1.6875rem);
   --small-heading3: calc(var(--small-heading2) * 0.86);
 

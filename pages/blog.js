@@ -6,7 +6,7 @@ import Meta from '@/components/meta'
 export default function Blog() {
   return(
     <Container>
-      <Meta pagetitle="Blog"/>
+      <Meta pagetitle="ブログ" pageDesc="ブログの記事一覧"/>
       <Hero title="Blog" subtitle="Recent posts"/>
       <PostBody>
         <p>いつか、素晴らしいブログを</p>

@@ -8,7 +8,7 @@ import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from '@/components/two-col
 export default function About() {
   return(
   <Container>
-    <Meta pagetitle="About"/>
+    <Meta pagetitle="アバウト" pageDesc="アウトプットしていくサイト"/>
     <Hero title="About" subtitle="About development activities" imageOn/>
    <TwoColumn>
       <TwoColumnMain>
